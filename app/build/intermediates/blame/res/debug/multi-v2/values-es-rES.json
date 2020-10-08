@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\tebar\\AndroidStudioProjects\\android-resources-basics-alt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\tebar\\AndroidStudioProjects\\android-resources-basics-alt\\app\\src\\main\\res\\values-es-rES\\strings.xml",
+                    "from": {
+                        "startLines": "2,6,3,5,4",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "57,713,112,659,596",
+                        "endColumns": "53,85,482,52,61",
+                        "endOffsets": "106,794,590,707,653"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "240,294,380,863,916",
+                        "endColumns": "53,85,482,52,61",
+                        "endOffsets": "289,375,858,911,973"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\tebar\\AndroidStudioProjects\\android-resources-basics-alt\\app\\src\\main\\res\\values-es-rES\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "157,57,105,204",
+                        "endColumns": "45,46,50,40",
+                        "endOffsets": "198,99,151,240"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,101,148,199",
+                        "endColumns": "45,46,50,40",
+                        "endOffsets": "96,143,194,235"
+                    }
+                }
+            ]
+        }
+    ]
+}

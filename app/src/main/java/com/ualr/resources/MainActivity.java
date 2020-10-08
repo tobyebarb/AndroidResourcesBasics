@@ -3,8 +3,10 @@ package com.ualr.resources;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import com.google.android.material.snackbar.Snackbar;
 
@@ -14,10 +16,15 @@ import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 
+    private TextView countryDescTV;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        countryDescTV = findViewById(R.id.country_description_text);
+        String description = getResources().getString(R.string.country_description_text);
+        countryDescTV.setText(description);
     }
 
 }
